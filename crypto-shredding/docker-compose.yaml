@@ -1,0 +1,14 @@
+version: '3.1'
+services:
+    postgresql:
+        image: postgres:11
+        environment:
+          - POSTGRES_USER=bartosz
+          - POSTGRES_PASSWORD=bartosz
+          - POSTGRES_DB=wfc_cryptoshredding
+        ports:
+          - "5432:5432"
+        volumes:
+          - ./scripts:/docker-entrypoint-initdb.d
+
+
