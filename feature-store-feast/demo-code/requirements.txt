@@ -1,0 +1,5 @@
+# 0.10.5 is not yet compatible with feast-spark 0.2.6!
+#feast==0.10.5
+feast==0.9.5.2
+pyspark==3.1.1
+feast-spark==0.2.6
