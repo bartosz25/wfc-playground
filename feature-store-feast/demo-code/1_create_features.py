@@ -16,6 +16,9 @@ players_feature_table = FeatureTable(
         file_format=ParquetFormat(),
         event_timestamp_column="event_time",
         created_timestamp_column="event_time",
+        # It's the output destination for the batch_source!
+        # Every time you call #ingest for this feature table,
+        # Feast will write the ingested data to this location!
         file_url="file:///home/bartosz/workspace/wfc-playground/feature-store-feast/input"
     )
 )
