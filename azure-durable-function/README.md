@@ -1,3 +1,5 @@
+Check the demo video: https://www.youtube.com/watch?v=7u262G3biU4 
+
 1. Start Storage Account: Azurite > Start (Visual Studio)
 
 2. Start Storage Explorer: from UI
