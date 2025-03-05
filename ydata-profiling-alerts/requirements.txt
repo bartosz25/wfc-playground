@@ -1,0 +1,4 @@
+ydata-profiling==4.12.2
+pandas==2.2.3
+fastparquet==2024.11.0
+pyarrow==19.0.1
